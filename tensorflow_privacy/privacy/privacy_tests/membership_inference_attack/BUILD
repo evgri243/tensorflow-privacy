@@ -99,39 +99,6 @@ py_library(
     deps = [":membership_inference_attack"],
 )
 
-py_test(
-    name = "tf_estimator_evaluation_test",
-    srcs = ["tf_estimator_evaluation_test.py"],
-    python_version = "PY3",
-    srcs_version = "PY3",
-    deps = [
-        ":membership_inference_attack",
-        ":tf_estimator_evaluation",
-    ],
-)
-
-py_library(
-    name = "tf_estimator_evaluation",
-    srcs = ["tf_estimator_evaluation.py"],
-    srcs_version = "PY3",
-    deps = [
-        ":membership_inference_attack",
-        ":utils_tensorboard",
-        "//tensorflow_privacy/privacy/privacy_tests:utils",
-    ],
-)
-
-py_binary(
-    name = "tf_estimator_evaluation_example",
-    srcs = ["tf_estimator_evaluation_example.py"],
-    python_version = "PY3",
-    srcs_version = "PY3",
-    deps = [
-        ":membership_inference_attack",
-        ":tf_estimator_evaluation",
-    ],
-)
-
 py_library(
     name = "keras_evaluation",
     srcs = ["keras_evaluation.py"],

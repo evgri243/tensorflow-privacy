@@ -42,8 +42,9 @@ setuptools.setup(
         'packaging~=22.0',
         'scikit-learn>=1.0,==1.*',
         'scipy~=1.9',
-        'tensorflow>=2.4.0,<=2.15.0',
-        'tensorflow-probability~=0.22.0',
+        'tensorflow~=2.16.1',
+        'tf_keras==2.16.0',
+        'tensorflow-probability~=0.24.0',
     ],
     python_requires='>=3.9.0,<3.12',
 )

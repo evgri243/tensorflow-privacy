@@ -9,7 +9,6 @@ py_library(
     srcs = ["__init__.py"],
     srcs_version = "PY3",
     deps = [
-        "//tensorflow_privacy/privacy/estimators/v1:dnn",
         "//tensorflow_privacy/privacy/optimizers:dp_optimizer",
         "//tensorflow_privacy/privacy/optimizers:dp_optimizer_vectorized",
     ],

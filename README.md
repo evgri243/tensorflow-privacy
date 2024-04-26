@@ -1,5 +1,8 @@
 # TensorFlow Privacy
 
+> NOTE: This update is a hack to make TensorFlow Privacy work with TensorFlow 2.16.0.
+> Keras 2 is mandatory, so that make sure `TF_USE_LEGACY_KERAS=1` is set when using this library.
+
 This repository contains the source code for TensorFlow Privacy, a Python
 library that includes implementations of TensorFlow optimizers for training
 machine learning models with differential privacy. The library comes with

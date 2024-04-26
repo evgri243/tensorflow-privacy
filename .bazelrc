@@ -18,3 +18,6 @@ test --test_summary=detailed
 
 # Execute commands as local subprocesses
 build --spawn_strategy=local
+
+# Use Keras 2 (set TF_USE_LEGACY_KERAS=1 environment variable)
+common --action_env=TF_USE_LEGACY_KERAS=1

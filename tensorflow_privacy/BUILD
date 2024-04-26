@@ -33,7 +33,6 @@ py_library(
         "//tensorflow_privacy/privacy/dp_query:tree_aggregation",
         "//tensorflow_privacy/privacy/dp_query:tree_aggregation_query",
         "//tensorflow_privacy/privacy/dp_query:tree_range_query",
-        "//tensorflow_privacy/privacy/estimators:dnn",
         "//tensorflow_privacy/privacy/keras_models:dp_keras_model",
         "//tensorflow_privacy/privacy/logistic_regression:datasets",
         "//tensorflow_privacy/privacy/logistic_regression:multinomial_logistic",

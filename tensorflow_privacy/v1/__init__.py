@@ -24,8 +24,6 @@ import sys
 if hasattr(sys, 'skip_tf_privacy_import'):  # Useful for standalone scripts.
   pass
 else:
-  # Estimators
-  from tensorflow_privacy.privacy.estimators.v1.dnn import DNNClassifier as DNNClassifierV1
 
   # Optimizers
   from tensorflow_privacy.privacy.optimizers.dp_optimizer import DPAdagradGaussianOptimizer

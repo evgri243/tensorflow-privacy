@@ -43,9 +43,3 @@ py_library(
     srcs = ["privacy_report.py"],
     deps = ["//tensorflow_privacy/privacy/privacy_tests/membership_inference_attack"],
 )
-
-py_library(
-    name = "tf_estimator_evaluation",
-    srcs = ["tf_estimator_evaluation.py"],
-    deps = ["//tensorflow_privacy/privacy/privacy_tests/membership_inference_attack:tf_estimator_evaluation"],
-)

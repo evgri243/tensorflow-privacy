@@ -54,9 +54,6 @@ else:
   from tensorflow_privacy.privacy.dp_query.tree_aggregation_query import TreeResidualSumQuery
   from tensorflow_privacy.privacy.dp_query.tree_range_query import TreeRangeSumQuery
 
-  # Estimators
-  from tensorflow_privacy.privacy.estimators.dnn import DNNClassifier
-
   # Keras Models
   from tensorflow_privacy.privacy.keras_models.dp_keras_model import DPModel
   from tensorflow_privacy.privacy.keras_models.dp_keras_model import DPSequential
